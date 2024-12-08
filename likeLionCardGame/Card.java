@@ -1,4 +1,4 @@
-package likeLion;
+package likeLionTestQ.likeLionCardGame;
 
 public class Card {
     int number;

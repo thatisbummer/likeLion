@@ -1,4 +1,4 @@
-package likeLionDiceGame;
+package likeLionTestQ.likeLionDiceGame;
 
 public class Player {
     String name;

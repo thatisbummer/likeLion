@@ -1,4 +1,4 @@
-package likeLionDiceGame;
+package likeLionTestQ.likeLionDiceGame;
 
 public class DiceGameManager {
     public static void main(String[] args) {

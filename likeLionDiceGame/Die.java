@@ -1,4 +1,4 @@
-package likeLionDiceGame;
+package likeLionTestQ.likeLionDiceGame;
 
 import java.util.Random;
 
