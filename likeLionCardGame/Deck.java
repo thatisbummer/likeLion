@@ -10,9 +10,9 @@ public class Deck {
         String[] suit = {"Hearts", "Diamonds", "Clubs", "Spades"};
         int n = 0;
 
-        for (int i = 0; i < 4; i++) {
+        for (String suits :suit) { // 향상된 for문!!
             for (int j = 1; j <= 13; j++) {
-                card[n] = new Card(j,suit[i]);
+                card[n] = new Card(j,suits);
                 n++;
             }
         }
