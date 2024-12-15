@@ -44,10 +44,9 @@ public class Customer {
     public void setCustomerID(String customerID) {
         this.customerID = customerID;
     }
-    public void addAccount(Account accountNum) {
+    public void addAccount(Account accountNum) throws BankOperationException{
             if (!(accounts.length > accountCount)) {
-                System.out.println("계좌가 이미 5개 입니다.");
-                return;
+               throw new BankOperationException("계좌가 이미 5개 입니다.");
             }
             else{
                 accounts[accountCount] = accountNum;
