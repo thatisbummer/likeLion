@@ -1,7 +1,7 @@
 package likeLionTestQ.Bankproject;
 
 public class Account {
-    private String[] accountNumber = new String[100];
+    private String[] accountNumber = new String[100]; //
     private String customerID;
     private int balance;
 

@@ -1,0 +1,3 @@
+Contact{name='seongmin', phoneNumber='01050148025'}
+Contact{name='kim', phoneNumber='01032323232'}
+Contact{name='rkdal', phoneNumber='12321412'}

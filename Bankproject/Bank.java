@@ -1,5 +1,7 @@
 package likeLionTestQ.Bankproject;
 
+import java.util.Arrays;
+
 public class Bank {
     private Customer[] customers = new Customer[100];
     int customerCount = 0;
@@ -25,7 +27,7 @@ public class Bank {
 
 
     // 고객조회 자리
-    public void customerFindAccount(String customerId) { // id 검색으로 계좌 정보 조회
+    public void customerFindAccount(String customerId) { // id 검색으로 계좌 정보 조회 나중에 추가 할것 괜히 만듬 ;;
         for (int i = 0; i < customerCount; i++) {
             if (customers[i] != null && customers[i].getCustomerID().equals(customerId)) {
                 System.out.println(customers[i].getCustomerName() + "님의 회원정보를 읽어오고있습니다.");
@@ -60,6 +62,10 @@ public class Bank {
                 }
             }
         }
+        for (Customer customer : customers) {
+
+        }
+
         throw new AccountNotFoundException("계좌번호를 잘못 입력하셨습니다.");
     }
 

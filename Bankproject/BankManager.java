@@ -81,7 +81,7 @@ public class BankManager {
                         }catch (InvalidTransactionException e) {
                             System.out.println(e);
                         } catch (AccountNotFoundException e) {
-                            System.out.println(e);
+                                System.out.println(e);
                         }
 
                         break;
